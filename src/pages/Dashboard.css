@@ -1,0 +1,100 @@
+.dashboard-container {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.dashboard-header p {
+  color: #7f8c8d;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  color: #34495e;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2980b9;
+}
+
+.task-table {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.task-table h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #ecf0f1;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #dfe6e9;
+}
+
+.status {
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.status.completed {
+  background-color: #d1f2eb;
+  color: #27ae60;
+}
+
+.status.pending {
+  background-color: #fdebd0;
+  color: #e67e22;
+}
+
+.status.in-progress {
+  background-color: #d6eaf8;
+  color: #2980b9;
+}
