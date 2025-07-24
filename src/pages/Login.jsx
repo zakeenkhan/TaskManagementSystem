@@ -32,7 +32,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/auth/login', {
+      const res = await fetch('https://task-management-system-9tq8.vercel.app/api/auth/login', {
         method: 'POST',
         credentials: 'include', // 🔒 Important for sending/receiving cookies
         headers: {
@@ -60,7 +60,7 @@ function Login() {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5000/api/auth/google';
+    window.location.href = 'https://task-management-system-9tq8.vercel.app/api/auth/google';
   };
 
   return (

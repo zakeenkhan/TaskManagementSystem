@@ -30,7 +30,7 @@ function Dashboard() {
   const [form, setForm] = useState({ title: '', status: '', dueDate: '' });
   const [filter, setFilter] = useState('All');
 
-  const API_BASE = 'http://localhost:5000/api/tasks';
+  const API_BASE = 'https://task-management-system-9tq8.vercel.app/api/tasks';
 
   // Load tasks from backend
   useEffect(() => {

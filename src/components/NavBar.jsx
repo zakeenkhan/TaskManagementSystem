@@ -9,7 +9,7 @@ function NavBar() {
 
   const logoutUser = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/auth/logout', {
+      const res = await fetch('https://task-management-system-9tq8.vercel.app/api/auth/logout', {
         method: 'GET',
         credentials: 'include',
       });
