@@ -16,7 +16,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3001', // React frontend origin
+  origin: 'https://task-management-system-5akn.vercel.app', // React frontend origin
   credentials: true                // ✅ Allow cookies
 }));
 
