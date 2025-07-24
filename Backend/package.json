@@ -19,6 +19,7 @@
   "author": "Zakeen Khan",
   "license": "ISC",
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
     "axios": "^1.10.0",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
