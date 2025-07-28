@@ -16,7 +16,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://task-management-system-9tq8.vercel.app/', // React frontend origin
+  origin: 'https://taskmanagementsystem12.netlify.app',
   credentials: true                // ✅ Allow cookies
 }));
 
@@ -39,6 +39,11 @@ pool.connect()
   .then(() => console.log('✅ Connected to PostgreSQL DB'))
   .catch((err) => console.error('❌ Database connection error:', err));
 
-// Start Server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+// Export app for serverless deployment
+export default app;
+
+// Start Server (only in development)
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+}

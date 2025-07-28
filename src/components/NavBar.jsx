@@ -9,8 +9,8 @@ function NavBar() {
 
   const logoutUser = async () => {
     try {
-      const res = await fetch('https://task-management-system-9tq8.vercel.app/api/auth/logout', {
-        method: 'GET',
+      const res = await fetch('https://tmsbackend.netlify.app/api/auth/logout', {
+        method: 'POST',
         credentials: 'include',
       });
 
