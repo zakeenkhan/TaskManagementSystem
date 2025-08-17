@@ -1,7 +1,14 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "task-management-frontend",
+  "version": "1.0.0",
   "private": true,
+  "description": "Frontend for Task Management System",
+  "author": "Zakeen Khan <zakeenkhan@example.com> (https://github.com/zakeenkhan)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakeenkhan/TaskManagementSystem.git"
+  },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",

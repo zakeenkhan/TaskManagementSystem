@@ -1,14 +1,20 @@
 {
-  "name": "backend",
+  "name": "task-management-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for Task Management System",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["task", "management", "productivity", "mern"],
+  "author": "Zakeen Khan <zakeenkhan@example.com> (https://github.com/zakeenkhan)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakeenkhan/TaskManagementSystem.git"
+  },
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",

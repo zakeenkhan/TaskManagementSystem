@@ -2,8 +2,8 @@ const User=require("../models/user.model")
 const jwt = require('jsonwebtoken')
 const {validationResult} = require("express-validator")
 
-const generateToken=(user)=>{
-    return  jwt.sign({ user },"tushar")
+const generateToken = (user) => {
+    return jwt.sign({ user }, process.env.JWT_SECRET || 'zakeen-secure-key-2023')
 }
 
 

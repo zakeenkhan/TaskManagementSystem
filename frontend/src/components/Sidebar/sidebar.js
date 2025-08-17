@@ -154,7 +154,7 @@ export const Sidebar=()=>{
                 Cookies.remove('Token')
                 navigate('/')
                 }} variant="text">Logout</Button>
-            <div style={{display:'flex',marginTop:'40px',color:'rgb(151, 195, 225)',fontSize:"12px"}}><CopyrightIcon sx={{marginRight:0.8,fontSize:15}}/><p style={{margin:'0px',marginTop:'1px'}}>2022 Tushar</p></div>
+            <div style={{display:'flex',marginTop:'40px',color:'rgb(151, 195, 225)',fontSize:"12px"}}><CopyrightIcon sx={{marginRight:0.8,fontSize:15}}/><p style={{margin:'0px',marginTop:'1px'}}>2023 Zakeen Khan</p></div>
         </Buttons>:null}
       
         </div>
