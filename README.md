@@ -1,4 +1,4 @@
-# **Task Management System**
+# Task Management System
 
 A professional Task Manager application built with modern web technologies by Zakeen Khan.
 
@@ -26,23 +26,14 @@ A professional Task Manager application built with modern web technologies by Za
 
 ## 📸 Screenshots
 
-- ### Sign Up
-  ![Sign Up](/Images/signup.png)
-
-- ### Sign In
-  ![Sign In](/Images/signin.png)
-
-- ### Dashboard
-  ![Dashboard](/Images/home.png)
-
-- ### Task Management
-  ![Tasks](/Images/tasks.png)
-
-- ### Add New Task
-  ![Add Task](/Images/addtask.png)
-
-- ### Mobile Responsive
-  ![Responsive](/Images/response.png)
+| Feature | Preview |
+|---------|---------|
+| **Sign Up** | ![Sign Up](/Images/signup.png) |
+| **Sign In** | ![Sign In](/Images/signin.png) |
+| **Dashboard** | ![Dashboard](/Images/home.png) |
+| **Task Management** | ![Tasks](/Images/tasks.png) |
+| **Add New Task** | ![Add Task](/Images/addtask.png) |
+| **Mobile Responsive** | ![Responsive](/Images/response.png) |
 
 ## 🚀 Getting Started
 
@@ -55,7 +46,7 @@ A professional Task Manager application built with modern web technologies by Za
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/TaskManagementSystem.git
+git clone https://github.com/zakeenkhan/TaskManagementSystem.git
 cd TaskManagementSystem
 ```
 
@@ -105,60 +96,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-<br/>
-
-In this application you can store your personal, proffesional and other tasks with theire subtasks. You can also edit them later.<br>
-All the user Information and All the tasks are stored in Backend so you can also access them later.
-
-## Technologies :
-
-#### Frontend :
-
-- ReactJS
-- Redux
-- Material UI
-
-### Backend :
-
-- Express
-- NodeJS
-- MongoDB
-
-## Features :
-
-- Register User
-- Login User
-- Create Task
-- Read Tasks
-- Update Tasks
-- Long time access
-
-## Screenshots of Application :
-
-- ### SignUp section
-  ![alt text](/Images/signup.png)
-
----
-
-- ### SignIn section
-  ![alt text](/Images/signin.png)
-
----
-
-- ### Home Page section
-
- ![alt text](/Images/home.png)
-
-- ### Tasks Pages Section
-  ![alt text](/Images/tasks.png)
-
----
-
-- ### Add New Task Section
-  ![alt text](/Images/addtask.png)
-
----
-
-- ### Responsive Design
-  ![alt text](/Images/response.png)
